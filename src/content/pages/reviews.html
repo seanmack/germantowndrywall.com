@@ -4,124 +4,245 @@ description: 'Meta description for the page'
 preloadImg: '/assets/images/cabinets2.jpg'
 permalink: 'reviews/'
 eleventyNavigation:
-    key: Reviews
-    order: 400
+  key: Reviews
+  order: 400
 ---
 
-{% extends "layouts/base.html" %}
+{% extends "layouts/base.html" %} {% block head %}
+<link rel="stylesheet" href="/css/reviews.css" />
+{% endblock %} {% block body %}
 
-{% block head %}
-    <link rel="stylesheet" href="/css/reviews.css">
-{% endblock %}
+<!-- ============================================ -->
+<!--                    LANDING                   -->
+<!-- ============================================ -->
 
-{% block body %}
+<section id="int-hero">
+  <h1 id="home-h">Our Reviews</h1>
+  <picture class="cs-picture">
+    <source media="(max-width: 600px)" srcset="/assets/images/landing-m.webp" />
+    <source media="(min-width: 601px)" srcset="/assets/images/landing.jpg" />
+    <img
+      aria-hidden="true"
+      decoding="async"
+      src="/assets/images/landing.jpg"
+      alt="new home"
+      width="2500"
+      height="1667"
+      loading="eager"
+    />
+  </picture>
+</section>
 
-    <!-- ============================================ -->
-    <!--                    LANDING                   -->
-    <!-- ============================================ -->
+<!-- ============================================ -->
+<!--                  Reviews                     -->
+<!-- ============================================ -->
 
-    <section id="int-hero">
-        <h1 id="home-h">Our Reviews</h1>
-        <picture class="cs-picture">
-            <source media="(max-width: 600px)" srcset="/assets/images/landing-m.webp">
-            <source media="(min-width: 601px)" srcset="/assets/images/landing.jpg">
-            <img aria-hidden="true" decoding="async" src="/assets/images/landing.jpg" alt="new home" width="2500" height="1667" loading="eager">
+<section id="reviews">
+  <div class="container">
+    <div class="review">
+      <picture>
+        <img
+          class="profile"
+          loading="lazy"
+          decoding="async"
+          src="/assets/svgs/profile-woman.svg"
+          alt=""
+          width="99"
+          height="99"
+        />
+      </picture>
+      <p>
+        What an amazing job! Their responsiveness was timely and efficient.
+        Their work was above and beyond: clean lines, ready to paint and they
+        even found things we missed mentioning during our estimate walk through.
+      </p>
+      <div class="star-group">
+        <span class="name">Lisa C.<span class="desc">Homeowner</span></span>
+        <picture>
+          <img
+            aria-hidden="true"
+            loading="lazy"
+            decoding="async"
+            src="/assets/svgs/stars.svg"
+            alt="stars"
+            width="91"
+            height="15"
+          />
         </picture>
-    </section>
+      </div>
+    </div>
+    <div class="review">
+      <picture>
+        <img
+          class="profile"
+          loading="lazy"
+          decoding="async"
+          src="/assets/svgs/profile.svg"
+          alt=""
+          width="99"
+          height="99"
+        />
+      </picture>
+      <p>
+        Kieran was excellent to deal with. Great job on drywall and spackling.
+        Skim coated my ceilings and fixed part of my walls that weren’t in the
+        quote with no extra charge. Cares about his work. His whole crew was
+        great.
+      </p>
+      <div class="star-group">
+        <span class="name">Edward R.<span class="desc">Homeowner</span></span>
+        <picture>
+          <img
+            aria-hidden="true"
+            loading="lazy"
+            decoding="async"
+            src="/assets/svgs/stars.svg"
+            alt="stars"
+            width="91"
+            height="15"
+          />
+        </picture>
+      </div>
+    </div>
+    <div class="review">
+      <picture>
+        <img
+          class="profile"
+          loading="lazy"
+          decoding="async"
+          src="/assets/svgs/profile-woman.svg"
+          alt=""
+          width="99"
+          height="99"
+        />
+      </picture>
+      <p>
+        Very professional! I was amazed at the job this company did for me.
+        Kieran is very responsive & communicates very well regarding timing of
+        job. Work was done to perfection!! The painter that followed him asked
+        who was the spackler. It was so nice to hear that he was also impressed.
+      </p>
+      <div class="star-group">
+        <span class="name">Lillian F.<span class="desc">Homeowner</span></span>
+        <picture>
+          <img
+            aria-hidden="true"
+            loading="lazy"
+            decoding="async"
+            src="/assets/svgs/stars.svg"
+            alt="stars"
+            width="91"
+            height="15"
+          />
+        </picture>
+      </div>
+    </div>
+    <div class="review">
+      <picture>
+        <img
+          class="profile"
+          loading="lazy"
+          decoding="async"
+          src="/assets/svgs/profile.svg"
+          alt=""
+          width="99"
+          height="99"
+        />
+      </picture>
+      <p>
+        I called Kieran to do a small drywall job in my garage and I couldn't be
+        happier with the results. He was responsive and great at communicating
+        with me throughout the project. His team was excellent and very
+        professional. The walls in the garage now look better than those in our
+        bedroom!
+      </p>
+      <div class="star-group">
+        <span class="name">Frank D.<span class="desc">Homeowner</span></span>
+        <picture>
+          <img
+            aria-hidden="true"
+            loading="lazy"
+            decoding="async"
+            src="/assets/svgs/stars.svg"
+            alt="stars"
+            width="91"
+            height="15"
+          />
+        </picture>
+      </div>
+    </div>
+    <div class="review">
+      <picture>
+        <img
+          class="profile"
+          loading="lazy"
+          decoding="async"
+          src="/assets/svgs/profile-woman.svg"
+          alt=""
+          width="99"
+          height="99"
+        />
+      </picture>
+      <p>
+        One can only hope the reviews are accurate when hiring someone without a
+        referral. Kieran McEvoy lived up to the 5 star review. Punctual,
+        efficient, professional and beautiful work. More than fair price too. He
+        repaired the drywall from a leak I had a while back and installed some
+        in a closet where another worker hadn’t finished a job. The pride in his
+        work really shows.
+      </p>
+      <div class="star-group">
+        <span class="name">Susan K.<span class="desc">Homeowner</span></span>
+        <picture>
+          <img
+            aria-hidden="true"
+            loading="lazy"
+            decoding="async"
+            src="/assets/svgs/stars.svg"
+            alt="stars"
+            width="91"
+            height="15"
+          />
+        </picture>
+      </div>
+    </div>
+    <div class="review">
+      <picture>
+        <img
+          class="profile"
+          loading="lazy"
+          decoding="async"
+          src="/assets/svgs/profile.svg"
+          alt=""
+          width="99"
+          height="99"
+        />
+      </picture>
+      <p>
+        I've used Kieran and Andrew several times for drywall installation and
+        skim coating. Let me tell you, skim coating is an art and these men are
+        artists. The walls came out beautiful. Their work is done neatly with
+        care as if they are working on their own house. The problem is once you
+        have some walls refinished by them you'll slowly end up bringing them
+        back until all your walls are refinished. They are returning to my home
+        again this week.
+      </p>
+      <div class="star-group">
+        <span class="name">Gary P.<span class="desc">Homeowner</span></span>
+        <picture>
+          <img
+            aria-hidden="true"
+            loading="lazy"
+            decoding="async"
+            src="/assets/svgs/stars.svg"
+            alt="stars"
+            width="91"
+            height="15"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- ============================================ -->
-    <!--                  Reviews                     -->
-    <!-- ============================================ -->
-
-    <section id="reviews">
-        <div class="container">
-            <div class="review">
-                <picture>
-                    <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="" width="99" height="99">
-                </picture>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
-                </p>
-                <div class="star-group">
-                    <span class="name">B Miller<span class="desc">Homeowner</span></span>
-                    <picture>
-                        <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="91" height="15">
-                    </picture>
-                </div>
-            </div>
-            <div class="review">
-                <picture>
-                    <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="" width="99" height="99">
-                </picture>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
-                </p>
-                <div class="star-group">
-                    <span class="name">Vincent M.<span class="desc">Homeowner</span></span>
-                    <picture>
-                        <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="91" height="15">
-                    </picture>
-                </div>
-            </div>
-            <div class="review">
-                <picture>
-                    <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="" width="99" height="99">
-                </picture>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
-                </p>
-                <div class="star-group">
-                    <span class="name">Alex L.<span class="desc">Homeowner</span></span>
-                    <picture>
-                        <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="91" height="15">
-                    </picture>
-                </div>
-            </div>
-            <div class="review">
-                <picture>
-                    <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile-woman.svg" alt="" width="99" height="99">
-                </picture>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
-                </p>
-                <div class="star-group">
-                    <span class="name">Arrieana M.<span class="desc">Homeowner</span></span>
-                    <picture>
-                        <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="91" height="15">
-                    </picture>
-                </div>
-            </div>
-            <div class="review">
-                <picture>
-                    <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="" width="99" height="99">
-                </picture>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
-                </p>
-                <div class="star-group">
-                    <span class="name">Leo N.<span class="desc">Homeowner</span></span>
-                    <picture>
-                        <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="91" height="15">
-                    </picture>
-                </div>
-            </div>
-            <div class="review">
-                <picture>
-                    <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="" width="99" height="99">
-                </picture>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed recusandae rerum unde similique ratione sapiente necessitatibus natus mollitia nam iusto.
-                </p>
-                <div class="star-group">
-                    <span class="name">Brian A.<span class="desc">Homeowner</span></span>
-                    <picture>
-                        <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="91" height="15">
-                    </picture>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    {% include 'components/cta.html' %}
-
-{% endblock %}
+{% include 'components/cta.html' %} {% endblock %}

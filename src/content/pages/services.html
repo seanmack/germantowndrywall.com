@@ -1,0 +1,127 @@
+---
+title: 'Services'
+description: 'McEvoy Drywall offers a range of drywall services including repair, installation, and skimcoating. Find the service that suits your needs.'
+preloadImg: '/assets/images/cabinets2.jpg'
+permalink: 'services/'
+eleventyNavigation:
+  key: Services
+  order: 150
+---
+
+{% extends "layouts/base.html" %} {% block head %}
+<link rel="stylesheet" href="/css/about.css" />
+{% endblock %} {% block body %}
+<!-- ============================================ -->
+<!--                    LANDING                   -->
+<!-- ============================================ -->
+
+<section id="int-hero">
+  <h1 id="home-h">About Us</h1>
+  <picture>
+    <source
+      media="(max-width: 600px)"
+      srcset="/assets/images/cabinets2-m.jpg"
+    />
+    <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg" />
+    <img
+      aria-hidden="true"
+      decoding="async"
+      src="/assets/images/cabinets2.jpg"
+      alt="kitchen cabinets"
+      loading="eager"
+      width="2500"
+      height="1667"
+    />
+  </picture>
+</section>
+
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="sbs">
+  <div class="cs-container">
+    <!-- Left Image Section -->
+    <div class="cs-left">
+      <picture class="cs-picture cs-picture1">
+        <source
+          media="(max-width: 600px)"
+          srcset="/assets/images/cabinets2-m.jpg"
+        />
+        <source
+          media="(min-width: 601px)"
+          srcset="/assets/images/cabinets2.jpg"
+        />
+        <img
+          aria-hidden="true"
+          decoding="async"
+          src="/assets/images/cabinets2.jpg"
+          alt="cabinets"
+          loading="lazy"
+          width="400"
+          height="563"
+        />
+      </picture>
+      <picture class="cs-picture cs-picture2">
+        <source
+          media="(max-width: 600px)"
+          srcset="/assets/images/construction-m.jpg"
+        />
+        <source
+          media="(min-width: 601px)"
+          srcset="/assets/images/construction.jpg"
+        />
+        <img
+          aria-hidden="true"
+          decoding="async"
+          src="/assets/images/construction.jpg"
+          alt="house"
+          loading="lazy"
+          width="400"
+          height="563"
+        />
+      </picture>
+    </div>
+    <!-- Right Content Section-->
+    <div class="cs-right">
+      <span class="cs-topper">McEvoy Drywall</span>
+      <h2 class="cs-title">About Company Title</h2>
+      <p class="cs-text">
+        Mastering the art of drywall repair and finishing has been our passion
+        and expertise for years. Beyond simple repairs, our seasoned team
+        specializes in tasks that truly transform a room, such as removing dated
+        popcorn ceilings and applying a smooth skim coat.
+      </p>
+      <p class="cs-text">
+        Over the decades, countless satisfied customers can attest to the
+        meticulous care and precision we bring to every project. Yet, in this
+        industry, craftsmanship is just one side of the coin. When choosing a
+        contractor, trust is paramount. Our reputation as a third-generation
+        family business stands not only on the impeccable quality of our work
+        but also on the trust and integrity we've fostered with our clients.
+      </p>
+      <div class="cs-flex-group">
+        <p class="cs-flex-p">
+          From day one, we've focused on stellar customer service. That's why
+          our customers call us time and again. If you have a question or
+          concern, you can speak directly to me any time. We pride ourselves on
+          our fast, friendly customer care.
+        </p>
+        <span class="cs-name">Kieran McEvoy</span>
+        <span class="cs-job">Founder</span>
+        <img
+          class="cs-quote-icon"
+          loading="lazy"
+          decoding="async"
+          src="/assets/svgs/quote-white.svg"
+          alt="gavel"
+          width="136"
+          height="77"
+        />
+      </div>
+      <a href="/projects" class="cs-button-solid">Our Projects</a>
+    </div>
+  </div>
+</section>
+
+{% include 'components/cta.html' %} {% endblock %}

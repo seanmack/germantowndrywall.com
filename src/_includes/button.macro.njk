@@ -1,0 +1,15 @@
+{%- macro button(params) -%}
+    <div class="mid-content-button-container">
+  <a
+    href="/contact/"
+    id="mid-content-button"
+    class="cs-button-solid cs-nav-button"
+  >
+    {% if params.text is defined %}
+      {{ params.text }}
+    {% else %}
+      Get a Free Estimate
+    {% endif %}
+  </a>
+</div>
+{%- endmacro -%}

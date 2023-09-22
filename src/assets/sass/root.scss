@@ -488,6 +488,15 @@
       display: none;
     }
   }
+
+  /* Disable dropdown behavior on mobile. Only top level pages should be shown. */
+  .cs-drop-icon {
+    display: none;
+  }
+
+  .cs-drop-li {
+    display: none;
+  }
 }
 
 /* Dark Mode */

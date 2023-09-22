@@ -10,7 +10,7 @@ eleventyNavigation:
 ---
 
 {% extends "layouts/base.html" %} {% block head %}
-<link rel="stylesheet" href="/css/about.css" />
+<link rel="stylesheet" href="/css/blog.css" />
 {% endblock %}
 
 <!-- Start content -->
@@ -19,93 +19,327 @@ eleventyNavigation:
 <!-- Add hero above the fold -->
 {{ hero({ text: "Drywall Repair in Colorado Springs" }) }}
 
-<!-- ============================================ -->
-<!--                 Side By Side                 -->
-<!-- ============================================ -->
+<div class="blog-container main-content-wrapper">
+  <!--Main content -->
+  <div class="main-content">
+    <!-- ============================================ -->
+    <!--                  Blog Article                -->
+    <!-- ============================================ -->
 
-<section id="sbs">
-  <div class="cs-container">
-    <!-- Left Image Section -->
-    <div class="cs-left">
-      <picture class="cs-picture cs-picture1">
-        <source
-          media="(max-width: 600px)"
-          srcset="/assets/images/cabinets2-m.jpg"
-        />
-        <source
-          media="(min-width: 601px)"
-          srcset="/assets/images/cabinets2.jpg"
-        />
-        <img
-          aria-hidden="true"
-          decoding="async"
-          src="/assets/images/cabinets2.jpg"
-          alt="cabinets"
-          loading="lazy"
-          width="400"
-          height="563"
-        />
-      </picture>
-      <picture class="cs-picture cs-picture2">
-        <source
-          media="(max-width: 600px)"
-          srcset="/assets/images/construction-m.jpg"
-        />
-        <source
-          media="(min-width: 601px)"
-          srcset="/assets/images/construction.jpg"
-        />
-        <img
-          aria-hidden="true"
-          decoding="async"
-          src="/assets/images/construction.jpg"
-          alt="house"
-          loading="lazy"
-          width="400"
-          height="563"
-        />
-      </picture>
-    </div>
-    <!-- Right Content Section-->
-    <div class="cs-right">
-      <span class="cs-topper">McEvoy Drywall</span>
-      <h2 class="cs-title">About Company Title</h2>
-      <p class="cs-text">
-        Mastering the art of drywall repair and finishing has been our passion
-        and expertise for years. Beyond simple repairs, our seasoned team
-        specializes in tasks that truly transform a room, such as removing dated
-        popcorn ceilings and applying a smooth skim coat.
-      </p>
-      <p class="cs-text">
-        Over the decades, countless satisfied customers can attest to the
-        meticulous care and precision we bring to every project. Yet, in this
-        industry, craftsmanship is just one side of the coin. When choosing a
-        contractor, trust is paramount. Our reputation as a third-generation
-        family business stands not only on the impeccable quality of our work
-        but also on the trust and integrity we've fostered with our clients.
-      </p>
-      <div class="cs-flex-group">
-        <p class="cs-flex-p">
-          From day one, we've focused on stellar customer service. That's why
-          our customers call us time and again. If you have a question or
-          concern, you can speak directly to me any time. We pride ourselves on
-          our fast, friendly customer care.
+    <article class="blog-article">
+      <section id="blog-content">
+        <h2>Introduction: The Importance of Professional Drywall Repair</h2>
+        <p>
+          When it comes to maintaining the integrity and aesthetic of your home,
+          drywall repair is an often-overlooked yet crucial task. Whether you're
+          dealing with small holes, cracks, or more extensive damage,
+          professional drywall repair ensures that the job is done right the
+          first time. DIY solutions can be tempting, but they often lead to
+          imperfections that require further correction down the line.
         </p>
-        <span class="cs-name">Kieran McEvoy</span>
-        <span class="cs-job">Founder</span>
-        <img
-          class="cs-quote-icon"
-          loading="lazy"
-          decoding="async"
-          src="/assets/svgs/quote-white.svg"
-          alt="gavel"
-          width="136"
-          height="77"
-        />
-      </div>
-      <a href="/projects" class="cs-button-solid">Our Projects</a>
-    </div>
+        <p>
+          At McEvoy Drywall Colorado Springs, we specialize in providing
+          seamless and durable drywall repairs. Our team of experts has the
+          skills and tools necessary to deliver quality results that not only
+          fix the immediate issue but also prolong the lifespan of your walls.
+          Choosing a professional for your drywall repair guarantees efficient
+          service, minimizes the risk of additional damage, and offers peace of
+          mind that your home is in capable hands.
+        </p>
+        <h2>Understanding Drywall Damage: Common Types and Causes</h2>
+        <p>
+          One of the first steps in effective drywall repair is understanding
+          the types of damage that can affect your walls and their root causes.
+          Common types of drywall damage include holes, cracks, water damage,
+          and nail pops. Each of these can occur for a variety of reasons—holes
+          can be the result of accidents or wear and tear, cracks might emerge
+          from structural settling, water damage is usually due to leaks or
+          flooding, and nail pops can happen as lumber shrinks. Knowing what
+          you're dealing with is crucial for effective repair and prevention. At
+          McEvoy Drywall Colorado Springs, our professionals are trained to
+          identify the specific type of damage and its cause, ensuring that the
+          repair not only addresses the visible issue but also helps prevent
+          future problems.
+        </p>
+        <h2>Signs Your Drywall Needs Repair</h2>
+        <p>
+          Recognizing when your drywall needs repair is essential for
+          maintaining the aesthetic appeal and structural integrity of your home
+          or office space. A few telltale signs of drywall damage include
+          visible cracks, holes, water stains, and even subtle irregularities
+          like nail pops or dents.
+        </p>
+        <p>
+          <strong>What Causes Drywall Damage?</strong><br />
+          Various factors can contribute to drywall damage. As mentioned
+          earlier, this could range from natural wear and tear and accidental
+          bumps or impacts, to more severe issues like water leaks or structural
+          settling. Each cause requires a unique repair approach, and
+          understanding the origin of the damage is vital for effective
+          treatment.
+        </p>
+        <p>
+          <strong>Drywall Patching Techniques</strong><br />
+          Once you've identified the type and cause of drywall damage, the next
+          step is repair. There are numerous patching techniques available
+          depending on the severity and type of damage. These may include using
+          a drywall patch for smaller holes, taping and mudding for seam-related
+          issues, and even full sheet replacement for larger or more severe
+          damage. At McEvoy Drywall Colorado Springs, our experts are equipped
+          with the skills and tools to employ the most appropriate repair
+          techniques, ensuring a long-lasting and visually pleasing result.
+        </p>
+
+        {{ button({ text: "Contact Us" }) }}
+
+        <h2>Types of Drywall Patches</h2>
+        <p>
+          Drywall repair often involves patching holes or cracks to maintain
+          both functional and aesthetic qualities. The types of patches used can
+          significantly affect the repair's durability and finished look.
+        </p>
+        <p>
+          <strong>How to Choose the Right Patch for Your Repair</strong><br />
+          The type of patch you choose depends on various factors such as the
+          size and location of the damage. For smaller holes, self-adhesive
+          patches or even a simple application of joint compound might suffice.
+          For larger or more complicated damage, a piece of drywall may need to
+          be cut and fitted into the affected area.
+        </p>
+        <p>
+          <strong>Step-by-Step Guide to Patching Drywall</strong><br />
+          After choosing the right type of patch, the next step is the actual
+          patching process. This usually involves cleaning the damaged area,
+          applying the patch, and securing it with screws or adhesive. Joint
+          compound is then applied over the patch to blend it seamlessly with
+          the surrounding wall.
+        </p>
+        <p>
+          <strong
+            >Concealing Drywall Patches with Multiple Coats of Joint
+            Compound</strong
+          ><br />
+          The last step is making the patched area undetectable, which can often
+          be achieved through multiple coats of joint compound. Each coat should
+          be applied carefully, sanded down, and checked for imperfections
+          before applying the next layer. The goal is to achieve a smooth
+          surface that can be primed and painted, making the repaired area
+          indistinguishable from the rest of the wall.
+        </p>
+        <h2>When is Resurfacing Needed?</h2>
+        <p>
+          Drywall resurfacing becomes a necessity when your wall or ceiling
+          shows signs of wear and tear beyond simple holes or cracks. Perhaps
+          you're dealing with persistent issues like peeling paint, water
+          stains, or surface roughness that can't be adequately fixed with a
+          simple patch.
+        </p>
+        <p>
+          Resurfacing involves applying a new layer of joint compound or 'mud'
+          over the existing drywall, thereby providing a fresh and even surface
+          for painting or wallpapering. This process is especially useful in
+          older homes where walls have undergone multiple repairs, leaving them
+          uneven and aesthetically unpleasing.
+        </p>
+        <p>
+          Another reason you may need to resurface is if you've removed
+          wallpaper and found the wall condition underneath to be subpar. In
+          such cases, resurfacing can save time and costs associated with
+          installing new drywall panels. Overall, resurfacing is a
+          cost-effective solution that can extend the life of your walls and
+          ceilings, giving them a smooth, new appearance.
+        </p>
+        <h2>Identifying Different Types of Cracks</h2>
+        <p>
+          Recognizing the various types of cracks in your drywall is the first
+          step toward effective repair. While some cracks are superficial and
+          easy to mend, others can signify underlying structural issues that
+          require immediate attention.
+        </p>
+        <p>The common types include:</p>
+        <ul>
+          <li>
+            Hairline Cracks: These are often superficial and may not require
+            extensive repair.
+          </li>
+          <li>
+            Stress Cracks: Usually appearing at door and window corners, these
+            indicate a minor shifting in the home's structure.
+          </li>
+          <li>
+            Settling Cracks: Vertical or horizontal, these cracks might point to
+            significant structural shifts and are a cause for concern.
+          </li>
+          <li>
+            Overlaid Cracks: Resembling spiderwebs, these often occur due to
+            poor plaster installation.
+          </li>
+        </ul>
+        <p>
+          Each type of crack has a unique cause and repair method. For instance,
+          stress cracks may require additional reinforcement, while settling
+          cracks could necessitate consulting a structural engineer. Being aware
+          of the type of crack you're dealing with enables you to decide the
+          most effective and cost-efficient repair strategy.
+        </p>
+
+        {{ button({ text: "Get a Free Estimate" }) }}
+
+        <h2>What are Nail Pops?</h2>
+        <p>
+          Nail pops are a common drywall issue where the nail or screw that
+          holds the drywall in place becomes visible, creating a bump or dimple
+          on the surface. They occur for a variety of reasons, including
+          fluctuations in temperature and humidity, house settling, or improper
+          installation.
+        </p>
+        <p>
+          When it comes to repairing nail pops, you have several effective
+          options:
+        </p>
+        <ul>
+          <li>
+            Drive a screw in next to the nail. Use a hammer to gently tap the
+            nail back into place, then cover it with spackle.
+          </li>
+          <li>
+            If you're dealing with screws, tighten them or replace them with
+            longer screws for a better grip.
+          </li>
+          <li>
+            After repairing, it's crucial to finish the area with joint compound
+            and paint to blend it seamlessly into the wall.
+          </li>
+        </ul>
+        <p>To prevent future nail pops, consider the following:</p>
+        <ul>
+          <li>
+            During installation, use screws instead of nails for a more secure
+            hold.
+          </li>
+          <li>
+            Make sure to drive screws or nails into the wall studs, not just the
+            drywall, for added support.
+          </li>
+          <li>
+            Regularly check for signs of nail pops so you can address them
+            before they become a more significant issue.
+          </li>
+        </ul>
+        <h2>Common Issues with Drywall Corners</h2>
+        <p>
+          Corners are often the most vulnerable part of a drywall installation,
+          susceptible to issues like cracking, chipping, and becoming crooked
+          over time. Whether it's inside corners or outside corners, each comes
+          with its own set of challenges.
+        </p>
+        <p>To address crooked inside corners:</p>
+        <ul>
+          <li>Firstly, remove any loose tape or damaged drywall.</li>
+          <li>
+            Apply a new layer of joint compound, smoothing it out to make the
+            angle as 90 degrees as possible.
+          </li>
+          <li>
+            Re-tape the corner and apply additional joint compound layers,
+            sanding between each layer for a smooth finish.
+          </li>
+          <li>
+            Consider using special wide corner tape, such as Straight-Flex or
+            No-Coat, for extra reinforcement.
+          </li>
+        </ul>
+        <p>For crooked outside corners:</p>
+        <ul>
+          <li>Remove damaged corner bead or tape if present.</li>
+          <li>Attach a new corner bead, making sure it's aligned properly.</li>
+          <li>
+            Apply joint compound in layers, feathering out each layer for a
+            seamless look. Sand between layers as needed.
+          </li>
+        </ul>
+        <p>
+          Both inside and outside corner issues can often be mitigated with the
+          correct use of materials and techniques, highlighting the importance
+          of professional intervention for best results.
+        </p>
+        <h2>How to Choose the Right Paint</h2>
+        <p>
+          One of the final but most crucial steps in any drywall repair project
+          is the selection and application of paint. Choosing the right paint
+          goes beyond just picking a color that matches your décor; it involves
+          a series of steps to ensure the longevity and quality of your drywall
+          repair.
+        </p>
+        <p>
+          <strong>Applying Primer: Why It's Essential</strong><br />
+          Primer serves as a foundation for your paint, allowing it to adhere
+          better to the surface and providing a more uniform finish. It also
+          helps to conceal any patches and gives a consistent base color,
+          enhancing the final appearance.
+        </p>
+        <p>
+          <strong>The Role of Texture in Drywall Repair</strong><br />
+          When it comes to drywall, texture plays a significant role. Your paint
+          choice should complement the texture you've chosen for your drywall
+          repair, whether it's smooth or has a more textured finish like
+          knockdown or orange peel.
+        </p>
+        <p>
+          <strong>Safety Tips for DIY Drywall Repair</strong><br />
+          If you're taking the DIY route, don't overlook safety. Always use
+          protective gear such as safety glasses and gloves, and make sure the
+          room is well-ventilated, especially when working with paints and
+          primers that may emit fumes.
+        </p>
+        <p>
+          Overall, selecting the right paint is not just a matter of aesthetics;
+          it's about maximizing the effectiveness and lifespan of your drywall
+          repair. That's why it's always advisable to consult with professionals
+          like us at McEvoy Drywall Colorado Springs to make the most informed
+          choices.
+        </p>
+        <h2>
+          Why McEvoy Drywall Colorado Springs is Your Best Choice for Drywall
+          Repair
+        </h2>
+        <p>
+          When it comes to drywall repair, the quality of work can greatly
+          impact not just the aesthetics of your space but also its long-term
+          durability. That's why it's essential to choose a reliable and
+          experienced service provider.
+        </p>
+        <p>
+          <strong>Our Expertise in Drywall Repair</strong><br />
+          At McEvoy Drywall Colorado Springs, our skilled professionals are
+          well-versed in all aspects of drywall repair, from patching and
+          resurfacing to addressing complex issues like cracks and corner
+          irregularities. With years of experience and a commitment to
+          excellence, we ensure top-notch work that stands the test of time.
+        </p>
+        <p>
+          <strong>Client Testimonials and Success Stories</strong><br />
+          Don't just take our word for it; our numerous client testimonials and
+          success stories attest to the quality of our work. We pride ourselves
+          on a job well done, and our satisfied customers are the best proof of
+          our expertise.
+        </p>
+        <p>
+          <strong
+            >Contact Us for Reliable and Professional Drywall Repair
+            Services</strong
+          ><br />
+          Ready to experience the best in drywall repair? Contact us today to
+          schedule a consultation or to receive a free estimate. Trust McEvoy
+          Drywall Colorado Springs for all your drywall repair needs — because
+          quality matters.
+        </p>
+
+        {{ button({ text: "Contact Us" }) }}
+      </section>
+    </article>
   </div>
-</section>
+  <!-- End .main-content -->
+</div>
 
 {% include 'components/cta.html' %} {% endblock %}

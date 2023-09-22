@@ -98,8 +98,9 @@
 
     {% include "components/header.html" %}
 
-    <!-- Import a parameterized button macro for mid-content CTAs -->
-    {%- from 'button.macro.njk' import button %}
+    <!-- Import macros for use in templates -->
+    {%- from 'button.macro.njk' import button %} {%- from 'hero.macro.njk'
+    import hero %}
 
     <main id="main">{% block body %}{% endblock %}</main>
     {% include "components/footer.html" %}

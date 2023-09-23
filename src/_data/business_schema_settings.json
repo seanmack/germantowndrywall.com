@@ -1,0 +1,21 @@
+{
+  "@context": "http://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "url": "https://www.drywallcoloradosprings.com",
+  "name": "McEvoy & Sons Drywall",
+  "logo": "https://www.drywallcoloradosprings.com/assets/svgs/logo-square-black.svg",
+  "image": "https://www.drywallcoloradosprings.com/assets/images/hallway.webp",
+  "description": "Your local drywall contractor in Colorado Springs, CO. We do drywall repair, drywall installation, drywall finishing, drywall texturing, popcorn ceiling removal, and more. Call us today for a free quote.",
+  "telephone": "+17193737583",
+  "openingHours": "Mo-Su",
+  "address": {
+    "addressLocality": "Colorado Springs",
+    "addressRegion": "CO",
+    "postalCode": "80903",
+    "streetAddress": "S Tejon St"
+  },
+  "aggregateRating": {
+    "ratingValue": "5",
+    "ratingCount": "47"
+  }
+}

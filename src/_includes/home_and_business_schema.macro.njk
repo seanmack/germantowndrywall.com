@@ -1,0 +1,28 @@
+{%- macro home_and_business_schema(params) -%}
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "HomeAndConstructionBusiness",
+        "url" : "{{ params.url }}",
+        "name": "{{ params.name}}",
+        "logo": "{{ params.logo }}",
+        "image": "{{ params.image }}",
+        "description": "{{ params.description }}",
+        "telephone": "{{ params.telephone }}",
+        "openingHours": "{{ params.openingHours }}",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "{{ params.address.addressLocality }}",
+          "addressRegion": "{{ params.address.addressRegion }}",
+          "postalCode":"{{ params.address.postalCode }}",
+          "streetAddress": "{{ params.address.streetAddress }}}"
+        }
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "ratingCount": "10"
+        }
+    }
+  </script>
+
+{%- endmacro -%}

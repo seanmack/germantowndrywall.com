@@ -80,7 +80,7 @@
 
     {%- from 'home_and_business_schema.macro.njk' import
     home_and_business_schema %} {{
-    home_and_business_schema(business_schema_settings) }} {% block head %}{%
+    home_and_business_schema(client.businessSchema) }} {% block head %}{%
     endblock %}
 
     <!--For home page, use service keywords for the title, including location for SEO.

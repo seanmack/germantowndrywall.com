@@ -312,6 +312,11 @@
       }
     }
 
+    .phone-icon {
+      display: block;
+      margin-right: 1rem;
+    }
+
     .cs-toggle {
       /* 44px - 48px */
       width: clamp(2.75rem, 6vw, 3rem);
@@ -783,6 +788,10 @@
       justify-content: flex-end;
       align-items: center;
       gap: calc(24 / 16 * 1rem);
+    }
+
+    .phone-icon {
+      display: none;
     }
 
     .cs-toggle {

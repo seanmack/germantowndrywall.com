@@ -1783,18 +1783,6 @@
       transition: border-bottom 0.3s;
 
       &.active {
-        border-color: var(--primaryLight);
-        .cs-button {
-          color: var(--primaryLight);
-          &:before {
-            background-color: var(--primaryLight);
-            transform: rotate(315deg);
-          }
-          &:after {
-            background-color: var(--primaryLight);
-            transform: rotate(-315deg);
-          }
-        }
         .cs-item-p {
           height: auto;
           /* 20px - 24px bottom */

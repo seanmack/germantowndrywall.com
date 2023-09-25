@@ -1,4 +1,6 @@
-This is the website for [McEvoy & Sons Drywall.](https://www.drywallcoloradosprings.com/)
+**WIP**: This repo contains a website redesign for mcevoydrywall.com, a drywall company in Shelby County, TN.
+
+The website will be built using the same design as the company's other location: [McEvoy & Sons Drywall Colorado Springs](https://www.drywallcoloradosprings.com/).
 
 Built with [Eleventy](https://www.11ty.dev/), a static site generator.
 

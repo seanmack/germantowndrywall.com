@@ -1,30 +1,30 @@
 {
   "name": "McEvoy & Sons Drywall",
   "email": "mcevoydrywall@gmail.com",
-  "phoneForTel": "719-373-7583",
-  "phoneFormatted": "(719) 373-7583",
+  "phoneForTel": "901-221-7060",
+  "phoneFormatted": "(901) 221-7060",
   "address": {
-    "city": "Colorado Springs",
-    "state": "CO"
+    "city": "Germantown",
+    "state": "TN"
   },
-  "domain": "www.drywallcoloradosprings.com",
+  "domain": "www.mcevoydrywall.com",
   "businessSchema": {
-    "url": "https://www.drywallcoloradosprings.com",
+    "url": "https://www.mcevoydrywall.com",
     "name": "McEvoy & Sons Drywall",
-    "logo": "https://www.drywallcoloradosprings.com/assets/svgs/logo-square-black.svg",
-    "image": "https://www.drywallcoloradosprings.com/assets/images/hallway.webp",
-    "description": "Your local drywall contractor in Colorado Springs, CO. We do drywall repair, drywall installation, drywall finishing, drywall texturing, popcorn ceiling removal, and more. Call us today for a free quote.",
-    "telephone": "+17193737583",
+    "logo": "https://www.mcevoydrywall.com/assets/svgs/logo-square-black.svg",
+    "image": "https://www.mcevoydrywall.com/assets/images/hallway.webp",
+    "description": "Your local drywall contractor in Germantown, TN. We do drywall repair, drywall installation, drywall finishing, drywall texturing, popcorn ceiling removal, and more. Call us today for a free quote.",
+    "telephone": "+19012217060",
     "openingHours": "Mo-Su",
     "address": {
-      "addressLocality": "Colorado Springs",
-      "addressRegion": "CO",
+      "addressLocality": "Germantown",
+      "addressRegion": "TN",
       "postalCode": "80903",
       "streetAddress": "S Tejon St"
     },
     "aggregateRating": {
       "ratingValue": "5",
-      "ratingCount": "47"
+      "ratingCount": "28"
     }
   }
 }

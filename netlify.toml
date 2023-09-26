@@ -19,3 +19,56 @@
 [build.processing.html]
   pretty_urls = false
 
+[[redirects]]
+  from = "/gallery"
+  to = "/projects/"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/blog/drywall-expert/index.html"
+  to = "/services/drywall-repair/"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/blog/"
+  to = "/services/drywall-repair/"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/blog/index.html"
+  to = "/services/drywall-repair/"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/blog/water-damage-to-drywall/index.html"
+  to = "/services/drywall-repair/"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/blog/wall-and-ceiling-repairs/index.html"
+  to = "/services/drywall-repair/"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/blog/skim-coating-walls-and-ceilings/index.html"
+  to = "/services/drywall-repair/"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/blog/choosing-the-right-long-island-drywall-contractor/index.html"
+  to = "/services/drywall-repair/"
+  status = 301
+  force = false
+
+[[redirects]]
+  from = "/blog/blog/before-after-comparison-drywall-repair/index.html"
+  to = "/services/drywall-repair/"
+  status = 301
+  force = false

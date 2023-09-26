@@ -12,22 +12,6 @@ eleventyNavigation:
 <link rel="stylesheet" href="/css/local.css" />
 <link rel="stylesheet" href="/css/critical.css" />
 
-<!-- Script for Netlify Identity -->
-<script
-  defer
-  src="https://identity.netlify.com/v1/netlify-identity-widget.js"
-></script>
-<script defer>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on('init', (user) => {
-      if (!user) {
-        window.netlifyIdentity.on('login', () => {
-          document.location.href = '/admin/';
-        });
-      }
-    });
-  }
-</script>
 {% endblock %} {% block body %}
 
 <!-- ============================================ -->
@@ -134,7 +118,7 @@ eleventyNavigation:
 <!--                 Side By Side                 -->
 <!-- ============================================ -->
 
-<section id="sbs">
+<section class="side-by-side">
   <div class="cs-container">
     <!-- Left Image Section -->
     <div class="cs-left">
@@ -218,7 +202,7 @@ eleventyNavigation:
 <!--            Extra Content To Rank             -->
 <!-- ============================================ -->
 
-<section id="sbs-r">
+<section class="side-by-side-r">
   <div class="cs-container">
     <!-- Left Image Section -->
     <div class="cs-left">
@@ -289,7 +273,7 @@ eleventyNavigation:
 <!--                 Side By Side                 -->
 <!-- ============================================ -->
 
-<section id="sbs">
+<section class="side-by-side">
   <div class="cs-container">
     <!-- Left Image Section -->
     <div class="cs-left">
@@ -360,7 +344,7 @@ eleventyNavigation:
 <!--            Extra Content To Rank             -->
 <!-- ============================================ -->
 
-<section id="sbs-r">
+<section class="side-by-side-r">
   <div class="cs-container">
     <!-- Left Image Section -->
     <div class="cs-left">
@@ -677,9 +661,8 @@ eleventyNavigation:
           aria-hidden="true"
           loading="lazy"
           decoding="async"
-          <!--
           src="/assets/svgs/stars-yellow.svg"
-          --
+          alt="5 star rating"
         />
       </li>
       <!-- Review 2 -->

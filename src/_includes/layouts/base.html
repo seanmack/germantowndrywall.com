@@ -1,21 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-92ZJVZXJNW"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-
-      gtag('config', 'G-92ZJVZXJNW');
-    </script>
-
     <!-- Standard meta tags -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -108,6 +93,11 @@
       client.address.city }}, {{ client.address.state }} {% else %} {{ title }}
       | {{ client.name }} {% endif %}
     </title>
+
+    <!-- Don't let the GA script impact users (and PageSpeed score) -->
+    {%- from 'postpone_google_analytics_script.macro.njk' import
+    postpone_google_analytics_script %} {{ postpone_google_analytics_script({
+    googleAnalyticsId: client.googleAnalyticsId }) }}
   </head>
   <body>
     <!--Screen reader skip main nav-->

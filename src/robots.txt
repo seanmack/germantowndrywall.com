@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /admin/
 Allow: /
 
-Sitemap: https://www.drywallcoloradosprings.com/sitemap.xml
+Sitemap: https://www.mcevoydrywall.com/sitemap.xml

@@ -59,13 +59,13 @@
     {% endif %}
 
     <!-- Sitewide Stylesheets and Scripts -->
+    {% block head %}{% endblock %}
     <link rel="stylesheet" href="/css/root.css" />
     <script defer src="/assets/js/nav.js"></script>
 
     {%- from 'home_and_business_schema.macro.njk' import
     home_and_business_schema %} {{
-    home_and_business_schema(client.businessSchema) }} {% block head %}{%
-    endblock %}
+    home_and_business_schema(client.businessSchema) }}
 
     <!--For home page, use service keywords for the title, including location for SEO.
         Other pages should just include the page name.
